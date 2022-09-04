@@ -1,12 +1,19 @@
-.navbar-lewagon {
+.navbar {
   justify-content: space-between;
-  background: white;
+  height: 90px;
+  padding-right: 150px;
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
+.navbar .navbar-brand img {
   width: 40px;
+}
+
+.nav-link {
+  &:hover {
+    color: $purple;
+  }
 }

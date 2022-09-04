@@ -1,0 +1,32 @@
+.btn-purple {
+  color: white;
+  background-color: #6320e8;
+  font-weight: 500;
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: white;
+    background-color: #7431f9;
+    scale: 1.1;
+  }
+}
+
+.btn-white {
+  color: $dark;
+  background-color: white;
+  font-weight: 500;
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: $dark;
+    scale: 1.1;
+  }
+}
