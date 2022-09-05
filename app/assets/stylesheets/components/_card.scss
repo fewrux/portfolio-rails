@@ -1,0 +1,23 @@
+.project-card {
+  max-width: 390px;
+  border-radius: 20px;
+  background-color: black;
+  transition: all 0.2s ease-in-out;
+
+  & > img {
+    border-radius: 20px 20px 0 0;
+    max-width: 100%;
+    max-height: 390px;
+    object-fit: cover;
+  }
+
+  &:hover {
+    scale: 1.1;
+  }
+}
+
+.project-info {
+  ul {
+    list-style: none;
+  }
+}

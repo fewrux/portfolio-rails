@@ -1,7 +1,7 @@
 .navbar {
+  // background-color: transparent;
   justify-content: space-between;
   height: 90px;
-  padding-right: 150px;
 }
 
 .navbar .navbar-collapse {
@@ -13,6 +13,8 @@
 }
 
 .nav-link {
+  transition: all 0.3s ease;
+
   &:hover {
     color: $purple;
   }
