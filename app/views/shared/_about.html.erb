@@ -1,0 +1,22 @@
+<section id="about">
+  <div class="container d-flex flex-column vh-100 py-5">
+    <h2 class="text-primary text-center fs-lg fw-bold my-5">About me</h2>
+    <div class="bio">
+      <div class="d-flex justify-content-center my-5">
+        <%= image_tag 'https://avatars.githubusercontent.com/u/101313329?v=4', class: 'avatar-xl' %>
+        <div class="bio-content ms-4 my-auto">
+          <p class="fs-5">I'm a <strong class="text-primary">Fullstack Developer</strong> specialized in <strong class="text-primary">Ruby on Rails</strong> and with a solid background in marketing and copywriting.</p>
+          <p class="fs-5 my-auto">I'm also a Yoga teacher and trekking passionate. I like to go camping and being in contact with nature whenever I can.</p>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center my-5 gap-4">
+        <%= link_to '#projects', class: "btn-purple p-3 px-4" do %>
+          <i class="fa-solid fa-code fs-5 me-2"></i> View my work
+        <% end %>
+        <%= link_to '/', class: "btn-white p-3 px-4" do %>
+          <i class="fa-solid fa-scroll fs-5 me-2"></i> View resume
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>

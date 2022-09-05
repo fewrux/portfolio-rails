@@ -1,0 +1,30 @@
+<section id="footer" class="p-5">
+  <div class="footer-info text-center p-5">
+    <ul class="d-flex justify-content-center gap-3 p-0">
+      <li>
+        <%= link_to "Home", "/", class: "fs-6" %>
+      </li>
+      <li>
+        <%= link_to "About", "#about", class: "fs-6" %>
+      </li>
+      <li>
+        <%= link_to "Contact", "/", class: "fs-6" %>
+      </li>
+    </ul>
+    <div class="d-flex justify-content-around my-5">
+      <%= link_to 'https://github.com/felipecrubio', target: '_blank' do %>
+        <i class="footer-icon fa-brands fa-github"></i>
+      <% end %>
+      <%= link_to 'https://www.linkedin.com/in/felipecrubio/', target: '_blank' do %>
+        <i class="footer-icon fa-brands fa-linkedin"></i>
+      <% end %>
+      <%= link_to 'https://twitter.com/FelipeCRubio', target: '_blank' do %>
+        <i class="footer-icon fa-brands fa-twitter"></i>
+      <% end %>
+      <%= link_to 'mailto:felipe.carvalho.rubio@gmail.com', target: '_blank' do %>
+        <i class="footer-icon fa-solid fa-envelope"></i>
+      <% end %>
+    </div>
+    <p><%= DateTime.now.strftime('%Y') %> © Felipe Rubio</p>
+  </div>
+</section>

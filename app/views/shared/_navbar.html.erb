@@ -1,0 +1,44 @@
+<div class="navbar navbar-expand-sm navbar-dark mx-auto container">
+  <div class="container-fluid">
+    <%= link_to "/", class: "navbar-brand" do %>
+      <%#= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
+    <% end %>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto gap-4">
+        <li class="nav-item d-flex gap-2">
+          <%= link_to 'https://github.com/felipecrubio', target: '_blank', class: "nav-link" do %>
+            <i class="footer-icon fa-brands fa-github"></i>
+          <% end %>
+          <%= link_to 'https://www.linkedin.com/in/felipecrubio/', target: '_blank', class: "nav-link" do %>
+            <i class="footer-icon fa-brands fa-linkedin"></i>
+          <% end %>
+          <%= link_to 'https://twitter.com/FelipeCRubio', target: '_blank', class: "nav-link" do %>
+            <i class="footer-icon fa-brands fa-twitter"></i>
+          <% end %>
+          <%= link_to 'mailto:felipe.carvalho.rubio@gmail.com', target: '_blank', class: "nav-link" do %>
+            <i class="footer-icon fa-solid fa-envelope"></i>
+          <% end %>
+        </li>
+        <li class="nav-item active">
+          <%= link_to "Home", "/", class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "About", "#about", class: "nav-link" %>
+        </li>
+        <li class="nav-item align-self-center">
+          <%= link_to '#projects', class: "btn-purple" do %>
+              <i class="fa-solid fa-code me-2"></i> Portfolio
+          <% end %>
+        </li>
+        <li class="nav-item align-self-center">
+          <%= link_to 'Contact', '/', class: "btn-white" %>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

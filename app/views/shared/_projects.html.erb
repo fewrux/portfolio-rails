@@ -1,0 +1,20 @@
+<section id="projects">
+  <div class="container py-5">
+    <h2 class="text-primary text-center fs-lg fw-bold my-5">Projects</h2>
+    <div class="row">
+      <% 6.times do %>
+        <div class="col-12 col-lg-4 my-4 p-0">
+          <%= render 'shared/project_card' %>
+        </div>
+      <% end %>
+    </div>
+    <div class="d-flex justify-content-center my-5 gap-5">
+      <%= link_to '/', class: "btn-purple p-3 px-4" do %>
+        <i class="footer-icon fa-solid fa-envelope fs-5 me-2"></i> Contact me
+      <% end %>
+      <%= link_to 'https://github.com/felipecrubio', target: '_blank', class: "btn-white p-3 px-4" do %>
+        <i class="footer-icon fa-brands fa-github fs-5 me-2"></i> View more
+      <% end %>
+    </div>
+  </div>
+</section>
