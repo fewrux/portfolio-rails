@@ -1,6 +1,6 @@
 <div class="navbar navbar-expand-sm navbar-dark mx-auto container">
   <div class="container-fluid">
-    <%= link_to "#", class: "navbar-brand" do %>
+    <%= link_to "/", class: "navbar-brand" do %>
       <%#= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
     <% end %>
 
@@ -28,10 +28,10 @@
           <%= link_to "Home", "/", class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <%= link_to "About", "/", class: "nav-link" %>
+          <%= link_to "About", "#about", class: "nav-link" %>
         </li>
         <li class="nav-item align-self-center">
-          <%= link_to '/', class: "btn-purple" do %>
+          <%= link_to '#projects', class: "btn-purple" do %>
               <i class="fa-solid fa-code me-2"></i> Portfolio
           <% end %>
         </li>

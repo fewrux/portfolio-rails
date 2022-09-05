@@ -10,8 +10,12 @@
         </div>
       </div>
       <div class="d-flex justify-content-center my-5 gap-4">
-        <%= link_to 'View my work', root_path, class: "btn-purple p-3 px-4" %>
-        <%= link_to 'View resume', root_path, class: "btn-white p-3 px-4" %>
+        <%= link_to '#projects', class: "btn-purple p-3 px-4" do %>
+          <i class="fa-solid fa-code fs-5 me-2"></i> View my work
+        <% end %>
+        <%= link_to '/', class: "btn-white p-3 px-4" do %>
+          <i class="fa-solid fa-scroll fs-5 me-2"></i> View resume
+        <% end %>
       </div>
     </div>
   </div>

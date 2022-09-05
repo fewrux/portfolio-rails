@@ -1,6 +1,17 @@
 <section id="footer" class="p-5">
   <div class="footer-info text-center p-5">
-    <div class="d-flex justify-content-around my-4">
+    <ul class="d-flex justify-content-center gap-3 p-0">
+      <li>
+        <%= link_to "Home", "/", class: "fs-6" %>
+      </li>
+      <li>
+        <%= link_to "About", "#about", class: "fs-6" %>
+      </li>
+      <li>
+        <%= link_to "Contact", "/", class: "fs-6" %>
+      </li>
+    </ul>
+    <div class="d-flex justify-content-around my-5">
       <%= link_to 'https://github.com/felipecrubio', target: '_blank' do %>
         <i class="footer-icon fa-brands fa-github"></i>
       <% end %>

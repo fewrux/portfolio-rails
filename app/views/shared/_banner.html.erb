@@ -5,8 +5,12 @@
     <h1 class="fs-lg fw-bold">Building <strong class="text-primary">efficient</strong> &<br> <strong class="text-primary">performant web apps</strong>.</h1>
     <h4>Fullstack Developer & SEO Copywriter</h4>
     <div class="d-flex gap-4">
-      <%= link_to 'View my work', root_path, class: "btn-purple p-3 px-4" %>
-      <%= link_to 'Get in touch', root_path, class: "btn-white p-3 px-4" %>
+      <%= link_to '#projects', class: "btn-purple p-3 px-4" do %>
+        <i class="fa-solid fa-code fs-5 me-2"></i> View my work
+      <% end %>
+      <%= link_to '/', class: "btn-white p-3 px-4" do %>
+        <i class="footer-icon fa-solid fa-envelope fs-5 me-2"></i> Get in touch
+      <% end %>
     </div>
   </div>
 </div>
