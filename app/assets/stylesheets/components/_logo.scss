@@ -1,6 +1,7 @@
 .logo-sm {
   width: 30px;
   height: 30px;
+  z-index: 2;
 }
 
 .logo-md {
@@ -18,7 +19,7 @@
 
   &:hover {
     cursor: pointer;
-    scale: 1.1;
+    scale: 1.2;
   }
 }
 
