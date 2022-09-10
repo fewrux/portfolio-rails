@@ -1,7 +1,7 @@
 <div class="navbar navbar-expand-sm navbar-dark mx-auto container">
   <div class="container-fluid">
     <%= link_to "/", class: "navbar-brand" do %>
-      <%#= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
+      <%= image_tag "logo.png" %>
     <% end %>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
           <%= link_to "Home", "/", class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <%= link_to "About", "#about", class: "nav-link" %>
+          <%= link_to "About", "/#about", class: "nav-link" %>
         </li>
         <li class="nav-item align-self-center">
           <%= link_to '#projects', class: "btn-purple" do %>
@@ -36,7 +36,7 @@
           <% end %>
         </li>
         <li class="nav-item align-self-center">
-          <%= link_to 'Contact', '/', class: "btn-white" %>
+          <%= link_to 'Contact', 'mailto:felipe.carvalho.rubio@gmail.com', target: '_blank', class: "btn-white" %>
         </li>
       </ul>
     </div>

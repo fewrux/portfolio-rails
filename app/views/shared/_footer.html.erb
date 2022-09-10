@@ -5,10 +5,10 @@
         <%= link_to "Home", "/", class: "fs-6" %>
       </li>
       <li>
-        <%= link_to "About", "#about", class: "fs-6" %>
+        <%= link_to "About", "/#about", class: "fs-6" %>
       </li>
       <li>
-        <%= link_to "Contact", "/", class: "fs-6" %>
+        <%= link_to "Contact", 'mailto:felipe.carvalho.rubio@gmail.com', target: '_blank', class: "fs-6" %>
       </li>
     </ul>
     <div class="d-flex justify-content-around my-5">
@@ -25,6 +25,6 @@
         <i class="footer-icon fa-solid fa-envelope"></i>
       <% end %>
     </div>
-    <p><%= DateTime.now.strftime('%Y') %> © Felipe Rubio</p>
+    <p>© <%= DateTime.now.strftime('%Y') %> Felipe Rubio</p>
   </div>
 </section>
