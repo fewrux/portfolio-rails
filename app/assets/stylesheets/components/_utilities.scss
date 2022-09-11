@@ -14,8 +14,29 @@
   font-size: 6rem;
 }
 
+.fs-30 {
+  font-size: 30px;
+}
+
 .fs-50 {
   font-size: 50px;
+}
+
+.hover {
+  transition: all 0.2s ease-in-out;
+
+  p {
+    visibility: hidden;
+  }
+
+  &:hover {
+    cursor: pointer;
+    scale: 1.1;
+
+    p {
+      visibility: visible;
+    }
+  }
 }
 
 @media(max-width: 768px) {
