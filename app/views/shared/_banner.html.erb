@@ -1,16 +1,18 @@
 <div class="banner">
   <%= render 'shared/navbar' %>
 
-  <div class="container d-flex flex-column justify-content-center align-items-start h-75 gap-4">
-    <h1 class="fs-lg fw-bold">Building <strong class="text-primary">efficient</strong> &<br> <strong class="text-primary">performant web apps</strong>.</h1>
-    <h4>Fullstack Developer & SEO Copywriter</h4>
-    <div class="d-flex gap-4">
-      <%= link_to '/#projects', class: "btn-purple p-3 px-4" do %>
-        <i class="fa-solid fa-code fs-5 me-2"></i> View my work
-      <% end %>
-      <%= link_to 'mailto:felipe.carvalho.rubio@gmail.com', target: '_blank', class: "btn-white p-3 px-4" do %>
-        <i class="footer-icon fa-solid fa-envelope fs-5 me-2"></i> Get in touch
-      <% end %>
+  <div class="container d-flex justify-content-start align-items-center">
+    <div class="banner-content d-flex flex-column gap-4">
+      <h1 class="fs-lg fw-bold">Building <strong class="text-primary">efficient</strong> & <strong class="text-primary">performant web apps</strong>.</h1>
+      <h4 class="mb-4">Fullstack Software Developer</h4>
+      <div class="btn-box d-flex gap-3">
+        <%= link_to '/#projects', class: "btn-purple w-100" do %>
+          <i class="fa-solid fa-code fs-5 me-2"></i> View my work
+        <% end %>
+        <%= link_to 'mailto:felipe.carvalho.rubio@gmail.com', target: '_blank', class: "btn-white w-100" do %>
+          <i class="footer-icon fa-solid fa-envelope fs-5 me-2"></i> Get in touch
+        <% end %>
+      </div>
     </div>
   </div>
 </div>
