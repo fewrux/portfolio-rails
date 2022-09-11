@@ -4,4 +4,12 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
+
+  .banner-content {
+    max-width: 670px;
+  }
+
+  & > div {
+    min-height: 80vh;
+  }
 }
