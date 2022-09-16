@@ -1,0 +1,5 @@
+meta_product_name: "Felipe Rubio"
+meta_title: "Fullstack Developer - Felipe Rubio "
+meta_description: "Building efficient and performant web apps. Fullstack Software Developer and SEO Copywriter."
+meta_image: "cover.png" # should exist in `app/assets/images/`
+twitter_account: "@FelipeCRubio"   # required for Twitter Cards
